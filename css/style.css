@@ -2,13 +2,25 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, a {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.btn {
+    border: 0px solid transparent;
+}
+
 .navbar-light .navbar-toggler {
     transition: 0.3s;
     color: rgba(0,0,0,0);
-    border:0px solid rgb(255, 255, 255);
+    border: 0px solid rgb(255, 255, 255);
 }
 
 .navbar-toggler:hover {
     transition: 0.1s;
     border:1px solid rgb(211, 211, 211);
 }
+
