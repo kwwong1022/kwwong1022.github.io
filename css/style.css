@@ -24,3 +24,6 @@ body {
     border:1px solid rgb(211, 211, 211);
 }
 
+#carouselExampleCaptions {
+    --bs-gutter-x: 0rem;
+}
