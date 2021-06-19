@@ -13,6 +13,10 @@ body {
     border: 0px solid transparent;
 }
 
+.row {
+    --bs-gutter-x: 0rem;
+}
+
 .navbar-light .navbar-toggler {
     transition: 0.3s;
     color: rgba(0,0,0,0);
@@ -24,6 +28,6 @@ body {
     border:1px solid rgb(211, 211, 211);
 }
 
-#carouselExampleCaptions {
+#carouselExampleCaptions, #footer {
     --bs-gutter-x: 0rem;
 }
