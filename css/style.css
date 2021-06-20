@@ -31,3 +31,11 @@ body {
 #carouselExampleCaptions, #footer {
     --bs-gutter-x: 0rem;
 }
+
+#skill-1, #skill-2, #skill-3, #skill-4 {
+    transition: transform .2s;
+}
+
+#skill-1:hover, #skill-2:hover, #skill-3:hover, #skill-4:hover {
+    transform: scale(1.5);
+}

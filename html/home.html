@@ -28,7 +28,7 @@
         <div class="col-sm-10">
             <nav class="navbar navbar-expand-sm navbar-light bg-white">
                 <div class="container-fluid mt-0 mt-sm-2" style=" --bs-gutter-x: 1.5rem;">
-                    <a class="navbar-brand" href="home.html">Kw Website</a>
+                    <a class="navbar-brand" href="home.html" style="font-weight: 500;">Kw Website</a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -64,7 +64,7 @@
                     <img src="../asset/banner_3.jpg" class="d-block w-100" alt="banner_3">
                 </div>
             </div>
-            
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -85,7 +85,8 @@
             <div class="col-md-1"></div>
             <!-- My Profile Picture -->
             <div class="col-md-3 mb-5 mb-md-auto">
-                <img src="../asset/profile_picture.png" alt="profile_picture" class="rounded-circle my-auto mx-auto d-flex mt-4 shadow"
+                <img src="../asset/profile_picture.png" alt="profile_picture"
+                    class="rounded-circle my-auto mx-auto d-flex mt-4 shadow"
                     style="max-height: 13em; align-items: center;">
             </div>
             <div class="col-md-1"></div>
@@ -93,7 +94,8 @@
             <!-- Self Intro -->
             <div class="col-md-7 px-4 px-sm-auto">
                 <h5 class="d-none d-md-block" style="font-weight: 500;">Wong Kai Fung, Kenneth</h5>
-                <h6 class="d-none d-md-block mb-4">Mobile & Web Developer, Graphic Designer</h6>
+                <h6 class="d-none d-md-block mb-4" style="font-weight: 450;">Mobile & Web Developer, Graphic Designer
+                </h6>
                 <h6 class="d-none d-md-block mb-4">
                     Kenneth Wong is a student who currently studies at the City University of Hong Kong, major in
                     Bachelor of Art and Science in New Media. Kenneth has a certain experience and interest in design
@@ -106,7 +108,8 @@
                     onclick="window.location.href='about.html'">More</button>
 
                 <h5 class="d-block d-md-none text-center" style="font-weight: 500;">Wong Kai Fung, Kenneth</h5>
-                <h6 class="d-block d-md-none mb-4 text-center">Mobile & Web Developer, Graphic Designer</h6>
+                <h6 class="d-block d-md-none mb-4 text-center" style="font-weight: 450;">Mobile & Web Developer, Graphic
+                    Designer</h6>
                 <h6 class="d-block d-md-none mb-5 text-center">
                     Kenneth Wong is a student who currently studies at the City University of Hong Kong, major in
                     Bachelor of Art and Science in New Media. Kenneth has a certain experience and interest in design
@@ -130,23 +133,35 @@
         <div class="row">
             <!-- Skills Icon -->
             <div class="col-sm-6 col-lg-3 text-center">
-                <img src="../asset/skill_graphic_design.png" alt="skill_graphic_design" class="rounded-circle mx-auto d-flex img-fluid shadow"
-                    style="max-height: 11em; align-items: center;">
+                <a href="#">
+                    <img src="../asset/skill_graphic_design.png" alt="skill_graphic_design" id="skill-1"
+                        class="rounded-circle mx-auto d-flex img-fluid shadow"
+                        style="max-height: 11em; align-items: center;">
+                </a>
                 <h6 class="mt-3 mb-5">Graphic Design</h6>
             </div>
             <div class="col-sm-6 col-lg-3 text-center">
-                <img src="../asset/skill_uiux_design.png" alt="skill_uiux_design" class="rounded-circle mx-auto d-flex img-fluid shadow"
-                    style="max-height: 11em; align-items: center;">
+                <a href="#">
+                    <img src="../asset/skill_uiux_design.png" alt="skill_uiux_design" id="skill-2"
+                        class="rounded-circle mx-auto d-flex img-fluid shadow"
+                        style="max-height: 11em; align-items: center;">
+                </a>
                 <h6 class="mt-3 mb-5">UI/UX Design</h6>
             </div>
             <div class="col-sm-6 col-lg-3 text-center">
-                <img src="../asset/skill_programming.png" alt="skill_programming" class="rounded-circle mx-auto d-flex img-fluid shadow"
-                    style="max-height: 11em; align-items: center;">
+                <a href="#">
+                    <img src="../asset/skill_programming.png" alt="skill_programming" id="skill-3"
+                        class="rounded-circle mx-auto d-flex img-fluid shadow"
+                        style="max-height: 11em; align-items: center;">
+                </a>
                 <h6 class="mt-3 mb-5">Programming</h6>
             </div>
             <div class="col-sm-6 col-lg-3 text-center">
-                <img src="../asset/skill_3d_modelling.png" alt="skill_3d_modelling" class="rounded-circle mx-auto d-flex img-fluid shadow"
-                    style="max-height: 11em; align-items: center;">
+                <a href="#">
+                    <img src="../asset/skill_3d_modelling.png" alt="skill_3d_modelling" id="skill-4"
+                        class="rounded-circle mx-auto d-flex img-fluid shadow"
+                        style="max-height: 11em; align-items: center;">
+                </a>
                 <h6 class="mt-3 mb-5">3D Modelling</h6>
             </div>
         </div>
@@ -167,12 +182,14 @@
             <!-- Skills Icon -->
             <div class="col-1 col-md-0 d-block d-md-none"></div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
-                <img src="../asset/software_ps.png" alt="..." class="rounded-circle mx-auto d-flex img-fluid shadow"
+                <img src="../asset/software_ps.png" alt="software_ps"
+                    class="rounded-circle mx-auto d-flex img-fluid shadow"
                     style="max-height: 5em; align-items: center;">
                 <h6 class="mt-3 mb-5">Photoshop</h6>
             </div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
-                <img src="../asset/software_ai.png" alt="..." class="rounded-circle mx-auto d-flex img-fluid shadow"
+                <img src="../asset/software_ai.png" alt="software_ai"
+                    class="rounded-circle mx-auto d-flex img-fluid shadow"
                     style="max-height: 5em; align-items: center;">
                 <h6 class="mt-3 mb-5">Illustrator</h6>
             </div>
@@ -180,12 +197,14 @@
 
             <div class="col-1 col-md-0 d-block d-md-none"></div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
-                <img src="../asset/software_davinci.png" alt="..." class="rounded-circle mx-auto d-flex img-fluid shadow"
+                <img src="../asset/software_davinci.png" alt="software_davinci"
+                    class="rounded-circle mx-auto d-flex img-fluid shadow"
                     style="max-height: 5em; align-items: center;">
                 <h6 class="mt-3 mb-5">Davinci Resolve</h6>
             </div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
-                <img src="../asset/software_c4d.png" alt="..." class="rounded-circle mx-auto d-flex img-fluid shadow"
+                <img src="../asset/software_c4d.png" alt="software_c4d"
+                    class="rounded-circle mx-auto d-flex img-fluid shadow"
                     style="max-height: 5em; align-items: center;">
                 <h6 class="mt-3 mb-5">Cinema 4D</h6>
             </div>
@@ -193,12 +212,14 @@
 
             <div class="col-1 col-md-0 d-block d-md-none"></div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
-                <img src="../asset/software_rhino7.png" alt="..." class="rounded-circle mx-auto d-flex img-fluid shadow"
+                <img src="../asset/software_rhino7.png" alt="software_rhino7"
+                    class="rounded-circle mx-auto d-flex img-fluid shadow"
                     style="max-height: 5em; align-items: center;">
                 <h6 class="mt-3 mb-5">Rhino 7</h6>
             </div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
-                <img src="../asset/software_android_studio.png" alt="..." class="rounded-circle mx-auto d-flex img-fluid shadow"
+                <img src="../asset/software_android_studio.png" alt="software_android_studio"
+                    class="rounded-circle mx-auto d-flex img-fluid shadow"
                     style="max-height: 5em; align-items: center;">
                 <h6 class="mt-3 mb-5">Android Studio</h6>
             </div>
@@ -206,12 +227,14 @@
 
             <div class="col-1 col-md-0 d-block d-md-none"></div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
-                <img src="../asset/software_java.png" alt="..." class="rounded-circle mx-auto d-flex img-fluid shadow"
+                <img src="../asset/software_java.png" alt="language_java"
+                    class="rounded-circle mx-auto d-flex img-fluid shadow"
                     style="max-height: 5em; align-items: center;">
                 <h6 class="mt-3 mb-5">Java</h6>
             </div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
-                <img src="../asset/software_kotlin.png" alt="..." class="rounded-circle mx-auto d-flex img-fluid shadow"
+                <img src="../asset/software_kotlin.png" alt="language_kotlin"
+                    class="rounded-circle mx-auto d-flex img-fluid shadow"
                     style="max-height: 5em; align-items: center;">
                 <h6 class="mt-3 mb-5">Kotlin</h6>
             </div>
@@ -219,12 +242,14 @@
 
             <div class="col-1 col-md-0 d-block d-md-none"></div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
-                <img src="../asset/software_javascript.png" alt="..." class="rounded-circle mx-auto d-flex img-fluid shadow"
+                <img src="../asset/software_javascript.png" alt="language_js"
+                    class="rounded-circle mx-auto d-flex img-fluid shadow"
                     style="max-height: 5em; align-items: center;">
                 <h6 class="mt-3 mb-5">Javascript</h6>
             </div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
-                <img src="../asset/software_nodejs.png" alt="..." class="rounded-circle mx-auto d-flex img-fluid shadow"
+                <img src="../asset/software_nodejs.png" alt="framework_nodejs"
+                    class="rounded-circle mx-auto d-flex img-fluid shadow"
                     style="max-height: 5em; align-items: center;">
                 <h6 class="mt-3 mb-5">Node.js</h6>
             </div>
@@ -232,12 +257,14 @@
 
             <div class="col-1 col-md-0 d-block d-md-none"></div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
-                <img src="../asset/software_sql.png" alt="..." class="rounded-circle mx-auto d-flex img-fluid shadow"
+                <img src="../asset/software_sql.png" alt="language_sql"
+                    class="rounded-circle mx-auto d-flex img-fluid shadow"
                     style="max-height: 5em; align-items: center;">
                 <h6 class="mt-3 mb-5">SQL</h6>
             </div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
-                <img src="../asset/software_processing.png" alt="..." class="rounded-circle mx-auto d-flex img-fluid shadow"
+                <img src="../asset/software_processing.png" alt="framework_processing"
+                    class="rounded-circle mx-auto d-flex img-fluid shadow"
                     style="max-height: 5em; align-items: center;">
                 <h6 class="mt-3 mb-5">Processing</h6>
             </div>
@@ -264,10 +291,9 @@
             <div class="col-12 text-center">
                 <!-- Title -->
                 <h5 style="font-weight: 500;">Contact Me</h5>
-                <h6 class="mb-5">Lorem ipsum dolor sit</h6>
+                <h6 class="mb-5">Contact for business cooperation</h6>
             </div>
         </div>
-
     </div>
 
     <footer style="background-color: rgb(138, 138, 138);">
@@ -312,12 +338,13 @@
 
                 <div class="col-sm-2 d-none d-md-block">
                     <h6 class="mb-3 mt-5 mt-sm-0" style="font-weight: 400;">Contact</h6>
-                    <h6 class="mb-1" style="font-weight: 200;"><a href="https://www.linkedin.com/in/kai-fung-wong-50b7691b4" target="_blank"
+                    <h6 class="mb-1" style="font-weight: 200;"><a
+                            href="https://www.linkedin.com/in/kai-fung-wong-50b7691b4" target="_blank"
                             style="color: white; text-decoration: none;">Linkedin</a></h6>
-                    <h6 class="mb-1" style="font-weight: 200;"><a href="https://www.instagram.com/kw_wong1022/" target="_blank"
-                            style="color: white; text-decoration: none;">Instagram</a></h6>
-                    <h6 class="mb-1" style="font-weight: 200;"><a href="https://www.facebook.com/kw.wong.3323" target="_blank"
-                            style="color: white; text-decoration: none;">Facebook</a></h6>
+                    <h6 class="mb-1" style="font-weight: 200;"><a href="https://www.instagram.com/kw_wong1022/"
+                            target="_blank" style="color: white; text-decoration: none;">Instagram</a></h6>
+                    <h6 class="mb-1" style="font-weight: 200;"><a href="https://www.facebook.com/kw.wong.3323"
+                            target="_blank" style="color: white; text-decoration: none;">Facebook</a></h6>
                 </div>
             </div>
 
