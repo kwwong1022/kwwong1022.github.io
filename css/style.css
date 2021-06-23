@@ -2,6 +2,16 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, a {
     margin-top: 0;
     margin-bottom: .5rem;
@@ -28,6 +38,24 @@ body {
     border:1px solid rgb(211, 211, 211);
 }
 
+.filter {
+    color: rgb(110, 110, 110);
+}
+
+.filter:hover {
+    color: rgb(53, 53, 53);
+    background: rgb(241, 241, 241);
+}
+
+.card {
+    transition: transform .2s;
+    width: 17rem;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
 #mainNavbar {
     padding-top: .1rem;
     padding-bottom: .1rem;
@@ -44,4 +72,38 @@ body {
 
 #skill-1:hover, #skill-2:hover, #skill-3:hover, #skill-4:hover {
     transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 25rem;
+    }
+
+    .card:hover {
+        transform: scale(1);
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 18rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        width: 12rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    .card {
+        width: 14rem;
+    }
+}
+
+@media (min-width: 1960px) {
+    .card {
+        width: 17rem;
+    }
 }
