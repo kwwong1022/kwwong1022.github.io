@@ -38,6 +38,16 @@ a:hover {
     border:1px solid rgb(211, 211, 211);
 }
 
+.skills {
+    max-height: 11em; 
+    align-items: center;
+    transition: transform .2s;
+}
+
+.skills:hover {
+    transform: scale(1.5);
+}
+
 .filter {
     color: rgb(110, 110, 110);
 }
@@ -66,17 +76,19 @@ a:hover {
     --bs-gutter-x: 0rem;
 }
 
-#skill-1, #skill-2, #skill-3, #skill-4 {
-    transition: transform .2s;
-}
-
-#skill-1:hover, #skill-2:hover, #skill-3:hover, #skill-4:hover {
-    transform: scale(1.5);
-}
-
 @media (max-width: 768px) {
+    .skills {
+        max-height: 18em; 
+        align-items: center;
+        transition: transform .2s;
+    }
+
+    .skills:hover {
+        transform: scale(1);
+    }
+
     .card {
-        width: 25rem;
+        width: 24rem;
     }
 
     .card:hover {
@@ -84,25 +96,77 @@ a:hover {
     }
 }
 
+@media (min-width: 575px) {
+    .skills {
+        max-height: 14em; 
+        align-items: center;
+        transition: transform .2s;
+    }
+
+    .skills:hover {
+        transform: scale(1);
+    }
+}
+
 @media (min-width: 768px) {
+    .skills {
+        max-height: 12em; 
+        align-items: center;
+        transition: transform .2s;
+    }
+
+    .skills:hover {
+        transform: scale(1.5);
+    }
+
     .card {
         width: 18rem;
     }
 }
 
 @media (min-width: 1200px) {
+    .skills {
+        max-height: 14em; 
+        align-items: center;
+        transition: transform .2s;
+    }
+
+    .skills:hover {
+        transform: scale(1.5);
+    }
+
     .card {
         width: 12rem;
     }
 }
 
 @media (min-width: 1500px) {
+    .skills {
+        max-height: 14em; 
+        align-items: center;
+        transition: transform .2s;
+    }
+
+    .skills:hover {
+        transform: scale(1.5);
+    }
+    
     .card {
         width: 14rem;
     }
 }
 
 @media (min-width: 1960px) {
+    .skills {
+        max-height: 14em; 
+        align-items: center;
+        transition: transform .2s;
+    }
+
+    .skills:hover {
+        transform: scale(1.5);
+    }
+
     .card {
         width: 17rem;
     }
