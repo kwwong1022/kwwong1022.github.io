@@ -19,6 +19,14 @@ a:hover {
     line-height: 1.4;
 }
 
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: .95rem;
+}
+
 .btn {
     border: 0px solid transparent;
 }
@@ -67,8 +75,8 @@ a:hover {
 }
 
 #mainNavbar {
-    padding-top: .1rem;
-    padding-bottom: .1rem;
+    padding-top: .0rem;
+    padding-bottom: .0rem;
     font-weight: 500;
 }
 
@@ -78,7 +86,7 @@ a:hover {
 
 @media (max-width: 768px) {
     .skills {
-        max-height: 18em; 
+        max-height: 17.5em; 
         align-items: center;
         transition: transform .2s;
     }
@@ -88,7 +96,7 @@ a:hover {
     }
 
     .card {
-        width: 24rem;
+        width: 22rem;
     }
 
     .card:hover {
@@ -98,7 +106,7 @@ a:hover {
 
 @media (min-width: 575px) {
     .skills {
-        max-height: 14em; 
+        max-height: 13em; 
         align-items: center;
         transition: transform .2s;
     }
@@ -116,7 +124,7 @@ a:hover {
     }
 
     .skills:hover {
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
 
     .card {
@@ -132,7 +140,7 @@ a:hover {
     }
 
     .skills:hover {
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
 
     .card {
@@ -148,11 +156,11 @@ a:hover {
     }
 
     .skills:hover {
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
     
     .card {
-        width: 14rem;
+        width: 15rem;
     }
 }
 
@@ -164,7 +172,7 @@ a:hover {
     }
 
     .skills:hover {
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
 
     .card {

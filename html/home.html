@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- title -->
-    <title>Kw Portfolio</title>
+    <title>Kw Website</title>
 
     <!-- icon -->
     <link rel="icon" href="../asset/icon.png">
@@ -25,14 +25,13 @@
 </head>
 
 <body>
-    <!-- Part 1 - Nav bar-->
+    <!-- Part 1 - Navbar-->
     <div class="row shadow">
         <div class="col-sm-1"></div>
         <div class="col-sm-10">
             <nav id="mainNavbar" class="navbar navbar-expand-sm navbar-light bg-white">
                 <div class="container-fluid mt-0 mt-sm-2" style=" --bs-gutter-x: 1.5rem;">
-                    <a class="navbar-brand pt-3 pt-sm-2" href="home.html" style="font-weight: 500;">Kw Website</a>
-                    <!-- pt-3 pt-sm-2 not stable -->
+                    <a class="navbar-brand pt-3 pt-sm-2" href="home.html" style="font-weight: 450;">Kw Website</a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -57,7 +56,7 @@
     <!-- Part 2 - Banner -->
     <div class="row shadow">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner role=" listbox" style="max-height: 25em;">
+            <div class="carousel-inner role=" listbox" style="max-height: 22em;">
                 <div class="carousel-item active">
                     <img src="../asset/banner_1.jpg" class="d-block w-100" alt="banner_1">
                 </div>
@@ -67,75 +66,81 @@
                 <div class="carousel-item">
                     <img src="../asset/banner_3.jpg" class="d-block w-100" alt="banner_3">
                 </div>
+                <div class="carousel-item">
+                    <img src="../asset/banner_4.jpg" class="d-block w-100" alt="banner_4">
+                </div>
             </div>
 
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
     </div>
 
+    <!-- Part 3 - Self Intro -->
     <div class="container">
-        <!-- Part 3 - Self intro -->
-        <div class="row my-0 my-sm-5"></div>
+        <div class="row my-0 my-md-5"></div>
         <div class="row mt-5">
             <div class="col-md-1"></div>
-            <!-- My Profile Picture -->
+            <!-- profile picture -->
             <div class="col-md-3 mb-5 mb-md-auto">
                 <img src="../asset/profile_picture.png" alt="profile_picture"
-                    class="rounded-circle my-auto mx-auto d-flex mt-4 shadow"
+                    class="rounded-circle my-auto mx-auto d-flex mt-3 mt-md-2 shadow"
                     style="max-height: 13em; align-items: center;">
             </div>
             <div class="col-md-1"></div>
 
             <!-- Self Intro -->
-            <div class="col-md-7 px-4 px-sm-auto">
+            <div class="col-md-6 px-4 px-sm-auto">
                 <h5 class="d-none d-md-block" style="font-weight: 500;">Wong Kai Fung, Kenneth</h5>
-                <h6 class="d-none d-md-block mb-4" style="font-weight: 450;">Mobile & Web Developer, Graphic Designer
+                <h6 class="d-none d-md-block mb-3" style="font-weight: 450;">Mobile & Web Developer, Graphic Designer
                 </h6>
                 <h6 class="d-none d-md-block mb-4">
                     Kenneth Wong is a student who currently studies at the City University of Hong Kong, major in
-                    Bachelor of Art and Science in New Media. Kenneth has a certain experience and interest in design
+                    Bachelor of Art and Science in New Media.
+                    Kenneth has a certain experience and interest in design
                     and programming. With those design experiences, his application is always accompanied by aesthetic
-                    and user-friendly front-end design. In addition, he applied the knowledge of different algorithms to
-                    the back-end logical operations of the program, to program a simple and efficient program.
-                </h6>
-
+                    and user-friendly front-end design.</h6>
                 <button class="d-none d-md-block btn btn-dark px-5 py-0 rounded-0 mb-5"
                     onclick="window.location.href='about.html'" style="height: 1.6rem; font-size: .9rem;">More</button>
 
+                <!-- small version -->
                 <h5 class="d-block d-md-none text-center" style="font-weight: 500;">Wong Kai Fung, Kenneth</h5>
-                <h6 class="d-block d-md-none mb-4 text-center" style="font-weight: 450;">Mobile & Web Developer, Graphic
+                <h6 class="d-block d-md-none mb-3 text-center" style="font-weight: 450;">Mobile & Web Developer, Graphic
                     Designer</h6>
-                <h6 class="d-block d-md-none mb-5 text-center">
+                <h6 class="d-block d-md-none mb-5 mb-sm-4 text-center">
                     Kenneth Wong is a student who currently studies at the City University of Hong Kong, major in
-                    Bachelor of Art and Science in New Media. Kenneth has a certain experience and interest in design
+                    Bachelor of Art and Science in New Media.
+                    Kenneth has a certain experience and interest in design
                     and programming. With those design experiences, his application is always accompanied by aesthetic
-                    and user-friendly front-end design.
-                </h6>
+                    and user-friendly front-end design.</h6>
             </div>
+            <div class="col-md-1 px-4 px-sm-auto mb-4 mb-sm-0"></div>
         </div>
+
         <!-- line break -->
         <hr class="mt-0 mt-sm-5">
+    </div>
 
-        <!-- Part 4 - Skills -->
-        <div class="row mt-3 mt-sm-5">
+    <!-- Part 4 - Skills -->
+    <div class="container">
+        <div class="row mt-5">
             <div class="col-12 text-center">
-                <!-- Title -->
+                <!-- title -->
                 <h5 style="font-weight: 500;">Skills</h5>
                 <h6 class="mb-5">Skills I am familiar with</h6>
             </div>
         </div>
 
         <div class="row">
-            <!-- Skills Icon -->
+            <!-- skills icon -->
             <div class="col-sm-6 col-lg-3 text-center" style="flex-shrink: 0;">
                 <a href="#">
                     <img src="../asset/skill_graphic_design.png" alt="skill_graphic_design" id="skill-1"
@@ -168,18 +173,20 @@
 
         <!-- line break -->
         <hr class="mt-5">
+    </div>
 
-        <!-- Part 5 - Softwares & Frameworks -->
-        <div class="row mt-3 mt-sm-5">
+    <!-- Part 5 - Softwares & Frameworks -->
+    <div class="container">
+        <div class="row mt-5">
             <div class="col-12 text-center">
-                <!-- Title -->
+                <!-- title -->
                 <h5 style="font-weight: 500;">Softwares & Frameworks</h5>
                 <h6 class="mb-5">Familiar softwares, frameworks and programming languages</h6>
             </div>
         </div>
 
         <div class="row">
-            <!-- Skills Icon -->
+            <!-- softwares icon -->
             <div class="col-1 col-md-0 d-block d-md-none"></div>
             <div class="col-5 col-md-3 col-lg-2 text-center">
                 <img src="../asset/software_ps.png" alt="software_ps"
@@ -273,11 +280,13 @@
 
         <!-- line break -->
         <hr class="mt-5">
+    </div>
 
-        <!-- Part 6 - Selected Works -->
-        <div class="row mt-3 mt-sm-5">
+    <!-- Part 6 - Selected Works -->
+    <div class="container">
+        <div class="row mt-5">
             <div class="col-12 text-center">
-                <!-- Title -->
+                <!-- title -->
                 <h5 style="font-weight: 500;">Selected Works</h5>
                 <h6 class="mb-4">Personally favorite selected works</h6> <!-- mb-5 -->
             </div>
@@ -286,25 +295,29 @@
 
         <!-- filter -->
         <div class="d-none d-md-flex flex-row align-items-center mb-4">
-            <!--  style="border: 1px solid #b1b1b1"-->
-            <div class="filter filter-active btn px-3 py-2 rounded-pill mx-3 border border-1" style="font-size: .9rem;">All</div>
-            <div class="filter btn px-3 py-2 rounded-pill mx-1 border border-1" style="font-size: .9rem;">Graphic Design</div>
-            <div class="filter btn px-3 py-2 rounded-pill mx-1 border border-1" style="font-size: .9rem;">UI/UX Design</div>
-            <div class="filter btn px-3 py-2 rounded-pill mx-1 border border-1" style="font-size: .9rem;">Programming</div>
-            <div class="filter btn px-3 py-2 rounded-pill mx-1 border border-1" style="font-size: .9rem;">3D Modelling</div>
+            <div class="filter filter-active btn px-3 py-2 rounded-pill mx-3 border border-1" style="font-size: .9rem;">
+                All</div>
+            <div class="filter btn px-3 py-2 rounded-pill mx-1 border border-1" style="font-size: .9rem;">Graphic Design
+            </div>
+            <div class="filter btn px-3 py-2 rounded-pill mx-1 border border-1" style="font-size: .9rem;">UI/UX Design
+            </div>
+            <div class="filter btn px-3 py-2 rounded-pill mx-1 border border-1" style="font-size: .9rem;">Programming
+            </div>
+            <div class="filter btn px-3 py-2 rounded-pill mx-1 border border-1" style="font-size: .9rem;">3D Modelling
+            </div>
         </div>
     </div>
 
-    <div class="container" style="max-width: 1920px;">
+    <div class="container" style="max-width: 1820px;">
         <div class="row mt-3 mt-md-5">
-
             <div class="col-12 col-md-6 col-lg-4 col-xl-2">
                 <a href="#" style="margin-bottom: 0em;">
                     <div class="card mb-5 mx-auto shadow">
-                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="...">
+                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="selected_work_1">
                         <div class="card-body">
-                            <h5 style="font-weight: 500;">Lorem</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <h5 style="font-weight: 500; font-size: 1.25rem;">Lorem</h5>
+                            <p class="card-text" style="font-size: .95rem;">Some quick example text to build on the card
+                                title and make up the bulk
                                 of
                                 the
                                 card's content.</p>
@@ -315,10 +328,11 @@
             <div class="col-12 col-md-6 col-lg-4 col-xl-2">
                 <a href="#" style="margin-bottom: 0em;">
                     <div class="card mb-5 mx-auto shadow">
-                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="...">
+                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="selected_work_2">
                         <div class="card-body">
-                            <h5 style="font-weight: 500;">Lorem</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <h5 style="font-weight: 500; font-size: 1.25rem;">Lorem</h5>
+                            <p class="card-text" style="font-size: .95rem;">Some quick example text to build on the card
+                                title and make up the bulk
                                 of
                                 the
                                 card's content.</p>
@@ -329,10 +343,11 @@
             <div class="col-12 col-md-6 col-lg-4 col-xl-2">
                 <a href="#" style="margin-bottom: 0em;">
                     <div class="card mb-5 mx-auto shadow">
-                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="...">
+                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="selected_work_3">
                         <div class="card-body">
-                            <h5 style="font-weight: 500;">Lorem</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <h5 style="font-weight: 500; font-size: 1.25rem;">Lorem</h5>
+                            <p class="card-text" style="font-size: .95rem;">Some quick example text to build on the card
+                                title and make up the bulk
                                 of
                                 the
                                 card's content.</p>
@@ -343,10 +358,11 @@
             <div class="col-12 col-md-6 col-lg-4 col-xl-2">
                 <a href="#" style="margin-bottom: 0em;">
                     <div class="card mb-5 mx-auto shadow">
-                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="...">
+                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="selected_work_4">
                         <div class="card-body">
-                            <h5 style="font-weight: 500;">Lorem</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <h5 style="font-weight: 500; font-size: 1.25rem;">Lorem</h5>
+                            <p class="card-text" style="font-size: .95rem;">Some quick example text to build on the card
+                                title and make up the bulk
                                 of
                                 the
                                 card's content.</p>
@@ -357,10 +373,11 @@
             <div class="col-12 col-md-6 col-lg-4 col-xl-2">
                 <a href="#" style="margin-bottom: 0em;">
                     <div class="card mb-5 mx-auto shadow">
-                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="...">
+                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="selected_work_5">
                         <div class="card-body">
-                            <h5 style="font-weight: 500;">Lorem</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <h5 style="font-weight: 500; font-size: 1.25rem;">Lorem</h5>
+                            <p class="card-text" style="font-size: .95rem;">Some quick example text to build on the card
+                                title and make up the bulk
                                 of
                                 the
                                 card's content.</p>
@@ -371,10 +388,11 @@
             <div class="col-12 col-md-6 col-lg-4 col-xl-2">
                 <a href="#" style="margin-bottom: 0em;">
                     <div class="card mb-5 mx-auto shadow">
-                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="...">
+                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="selected_work_6">
                         <div class="card-body">
-                            <h5 style="font-weight: 500;">Lorem</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <h5 style="font-weight: 500; font-size: 1.25rem;">Lorem</h5>
+                            <p class="card-text" style="font-size: .95rem;">Some quick example text to build on the card
+                                title and make up the bulk
                                 of
                                 the
                                 card's content.</p>
@@ -385,134 +403,54 @@
         </div>
     </div>
 
-    <!--
-    <div class="container" style="max-width: 1920px;">
-        <div class="row mt-3 mt-md-5">
-
-            <div class="col-12 col-md-6 col-lg-4 col-xl-2">
-                <a href="#" style="margin-bottom: 0em;">
-                    <div class="card mb-5 mx-auto shadow">
-                        <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 style="font-weight: 500;">Lorem</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's content.</p>
-                        </div>
-                </a>
-            </div>
-
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-2">
-            <a href="#" style="margin-bottom: 0em;">
-                <div class="card mb-5 mx-auto shadow">
-                    <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 style="font-weight: 500;">Lorem</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-2">
-            <a href="#" style="margin-bottom: 0em;">
-                <div class="card mb-5 mx-auto shadow">
-                    <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 style="font-weight: 500;">Lorem</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-2">
-            <a href="#" style="margin-bottom: 0em;">
-                <div class="card mb-5 mx-auto shadow">
-                    <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 style="font-weight: 500;">Lorem</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-2">
-            <a href="#" style="margin-bottom: 0em;">
-                <div class="card mb-5 mx-auto shadow">
-                    <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 style="font-weight: 500;">Lorem</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-2">
-            <a href="#" style="margin-bottom: 0em;">
-                <div class="card mb-5 mx-auto shadow">
-                    <img src="../asset/skill_3d_modelling.png" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 style="font-weight: 500;">Lorem</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-    </div>
-    -->
-
+    <!-- Part 7 - Contact Me -->
     <div class="container">
         <!-- line break -->
         <hr class="mt-5">
 
-        <!-- Part 7 - Contact Me -->
-        <div class="row mt-3 mt-sm-5">
+        <div class="row mt-5">
             <div class="col-12 text-center">
-                <!-- Title -->
+                <!-- title -->
                 <h5 style="font-weight: 500;">Contact Me</h5>
                 <h6 class="mb-3">Contact for business cooperation</h6>
             </div>
         </div>
 
+        <!-- contact form -->
         <form>
             <div class="row mt-4">
                 <div class="col-6 col-md-3 px-1 mb-3">
-                    <input type="first-name" class="form-control" id="userFirstName" placeholder="First Name">
+                    <input type="first-name" class="form-control" id="userFirstName" placeholder="First Name"
+                        style="font-size: .95rem;">
                 </div>
                 <div class="col-6 col-md-3 px-1 mb-3">
-                    <input type="first-name" class="form-control" id="userFirstName" placeholder="Last Name">
+                    <input type="first-name" class="form-control" id="userFirstName" placeholder="Last Name"
+                        style="font-size: .95rem;">
                 </div>
                 <div class="col-12 col-md-6 px-1 mb-3">
-                    <input type="subject" class="form-control" id="userSubject" placeholder="Subject">
+                    <input type="subject" class="form-control" id="userSubject" placeholder="Subject"
+                        style="font-size: .95rem;">
                 </div>
             </div>
+
             <div class="row">
                 <div class="col px-1">
-                    <textarea class="form-control" id="userMessage" rows="7" placeholder="Message"></textarea>
+                    <textarea class="form-control" id="userMessage" rows="7" placeholder="Message"
+                        style="font-size: .95rem;"></textarea>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col px-1">
                     <button class="btn btn-dark px-5 py-0 rounded-0 mt-3 mb-5 mr-auto"
-                    onclick="window.location.href='#'" style="height: 1.6rem; font-size: .9rem;">Send Message</button>
+                        onclick="window.location.href='#'" style="height: 1.6rem; font-size: .9rem;">Send
+                        Message</button>
                 </div>
             </div>
         </form>
-
     </div>
 
+    <!-- Footer -->
     <footer style="background-color: rgb(138, 138, 138);">
         <div class="container" style="color: white;">
             <div class="row mt-5 pt-0 pt-sm-4"></div>
@@ -565,6 +503,7 @@
                 </div>
             </div>
 
+            <!-- contact info -->
             <div class="row pt-0 pt-sm-3">
                 <div class="col-sm-4 d-none d-sm-block"">
                     <h6 class=" mb-1" style="font-weight: 200;">Email: kwwong1022@cloud.com</h6>
@@ -572,9 +511,12 @@
                 </div>
             </div>
             <div class="row pt-0 pt-sm-3"></div>
+
+            <!-- credits -->
             <div class="row pt-0 pt-sm-5 pb-4 pb-sm-4">
                 <div class="col-sm-12 text-center">
-                    <h6 style="font-weight: 200; line-height: 1;">Website designed and created by Wong Kai Fung. © 2021
+                    <h6 style="font-size: .9rem; font-weight: 200; line-height: 1;">Website designed and created by Wong
+                        Kai Fung. © 2021
                         Kw Website. All Right Reserved.</h6>
                 </div>
             </div>
