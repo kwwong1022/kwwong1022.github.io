@@ -1,0 +1,160 @@
+/* plan card */
+#new-plan-card-session, #workout-plan-session {
+    padding: 1rem 2.2rem 1rem;
+}
+
+.card {
+    min-width: 27rem;  
+    width: 29rem;  
+    background-color: rgb(46, 196, 71); 
+
+    padding: .5rem .8rem .5rem;                
+    border-radius: 15px 15px 15px 15px; 
+    border: 6px solid white;          
+    box-shadow: 0px 2px 13px 0px #888888; 
+    color: rgb(247, 247, 247);
+
+    align-items: center;
+}
+
+.edit-card, .card-info {
+    display: flex;
+}
+
+.btn-show-avg-power, .btn-is-freeride {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .5); 
+    color: rgb(82, 82, 82); 
+    border:none; border-radius: 15px;
+    padding: .3rem .6rem .3rem;
+}
+
+.card-grid-left .btn-show-avg-power .btn-active, .card-grid-left .btn-is-freeride .btn-active {
+    background-color: rgba(255, 255, 255, 1); 
+    color: grey;
+    border:none; border-radius: 15px;
+    padding: .3rem .6rem .3rem;
+}
+
+.btn-sm {
+    width: 16px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: grey;
+}
+
+.btn-sm-l {
+    width: 13px;
+    height: 30px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color: white;
+    color: grey;
+}
+.btn-sm-r {
+    width: 13px;
+    height: 30px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: white;
+    color: grey;
+}
+
+.btn-plan-card-edit, .btn-add-new-plan, .btn-plan-card-edit-exit, .btn-show-avg-power, .btn-is-freeride, .btn-plan-card-clear {
+    transition: 0.3ms ease-in;
+}
+.btn-plan-card-edit:hover, .btn-add-new-plan:hover, .btn-plan-card-edit-exit:hover, .btn-plan-card-edit-exit:hover, .btn-show-avg-power:hover, .btn-is-freeride:hover, .btn-plan-card-clear:hover {
+    transform: scale(1.2);
+    transition: 0.2ms ease-in;
+}
+.btn-plan-card-edit:active, .btn-add-new-plan:active, .btn-plan-card-edit-exit:active, .btn-plan-card-edit-exit:active, .btn-show-avg-power:active, .btn-is-freeride:active, .btn-plan-card-clear:active {
+    transform: scale(0.9);
+    transition: 0.2ms ease-in;
+}
+.btn-show-avg-power:hover, .btn-is-freeride:hover {
+    transform: scale(1.1);
+    transition: 0.2ms ease-in;
+}
+.btn-show-avg-power:active, .btn-is-freeride:active {
+    transform: scale(0.9);
+    transition: 0.2ms ease-in;
+}
+
+.btn:hover {
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.btn-b {
+    background-color: transparent; 
+    color: white;
+}
+.btn-b:hover {
+    background-color: transparent; 
+    color: rgb(230, 230, 230);
+}
+
+.btn-shortcut {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255); 
+    color: rgb(82, 82, 82); 
+    border:none; 
+    padding: .3rem .3rem .3rem;
+}
+.btn-shortcut:hover {
+    background-color: rgb(241, 181, 141); 
+    color: rgb(61, 61, 61); 
+}
+.btn-shortcut:active {
+    background-color: rgb(219, 114, 44); 
+    color: rgb(61, 61, 61); 
+}
+
+@media (max-width: 576px) {
+    /* new plan card */
+    .main-content #new-plan-card-session, #workout-plan-session {
+        padding: 1rem .7rem 1rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    /* new plan card */
+    .main-content #new-plan-card-session, #workout-plan-session {
+        padding: 1rem 1.5rem 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+    .main-content #new-plan-card-session, #workout-plan-session {
+        padding: 1rem 0 1rem 6%;
+    }
+
+    .main-content #workout-plan-shortcut .d-flex {
+        padding-left: 8%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .main-content #workout-plan-shortcut .d-flex {
+        padding-left: 11.5%;
+    }
+}
+
+/* Animation */
+@keyframes addCardFade {
+    from {
+        opacity: 1;
+        transform: translateY(0rem)
+    } to {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+}

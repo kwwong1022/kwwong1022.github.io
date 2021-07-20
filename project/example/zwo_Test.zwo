@@ -1,0 +1,18 @@
+<workout_file>
+    <author>K.Wong</author>
+    <name>zwo Test</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.2487234" PowerHigh="0.75085104" pace="0"/>
+        <SteadyState Duration="300" Power="0.49978721" pace="0" show_avg="1"/>
+        <SteadyState Duration="300" Power="0.64872336" pace="0"/>
+        <SteadyState Duration="300" Power="0.81042552" pace="0"/>
+        <SteadyState Duration="300" Power="0.95085102" pace="0"/>
+        <SteadyState Duration="300" Power="1.0997872" pace="0"/>
+        <SteadyState Duration="300" Power="1.2487235" pace="0"/>
+        <FreeRide Duration="600" FlatRoad="0"/>
+        <Cooldown Duration="600" PowerLow="0.75085104" PowerHigh="0.2487234" pace="0"/>
+    </workout>
+</workout_file>
