@@ -64,7 +64,7 @@
             </section>
 
             <!-- User Profile -->
-            <section id="user-profile" style="padding: 1rem 2rem 1rem;">
+            <section id="user-profile">
                 <div class="d-flex" style="justify-content: space-between;">
                     <h2>User Profile</h2>
 
@@ -82,7 +82,8 @@
                     <!-- Name -->
                     <div class="d-flex" style="justify-content: space-between; margin: 1rem .08rem .2rem;">
                         <div style="width: 50%; display: inline; padding-right: 1rem;">
-                            <label for="workout-title" style="width: 30%; padding-right: .5rem;">Workout Title: </label><br>
+                            <label for="workout-title" style="width: 30%; padding-right: .5rem;">Workout Title:
+                            </label><br>
                             <input id="workout-title" type="text" placeholder="Workout Title"
                                 style="width: 100%; height: 1.5rem; margin-top: .2rem;">
                         </div>
@@ -132,12 +133,11 @@
                                 <div class="d-flex" style="justify-content: space-between; align-items: center;">
                                     <!-- Workout Title -->
                                     <div class="edit-card-title">
-                                        <span class="title-freeride"
-                                            style="font-size: 1.5rem; font-weight: 510; display: none;">
+                                        <span class="title-freeride" style="display: none;">
                                             FREERIDE</span>
-                                        <span class="title-zone" style="font-size: 1.5rem; font-weight: 510;">ZONE
-                                            <span class="title-zone-level">2</span> -
-                                            <span class="title-power">200</span>w
+                                        <span class="title-zone">ZONE
+                                            <span class="title-zone-level">2</span><span class="title-power-session"> -
+                                            <span class="title-power">200</span>w</span>
                                         </span>
                                     </div>
                                     <div class="edit-card-mode d-flex" style="padding-left: 0rem;">
@@ -150,15 +150,14 @@
                                 <div class="power-edit d-flex" style="align-content: center; justify-content: space-between; padding-top: .4rem; 
                                     padding-right: 1rem;">
                                     <div class="d-flex">
-                                        <span
-                                            style="font-size: 1.3rem; font-weight: 500; align-self: center;">Power:</span>
+                                        <span class="edit-card-power-sub-title">Power:</span>
                                     </div>
                                     <!-- Power % -->
                                     <div class="d-flex" style="padding: 0 .8rem 0">
                                         <button class="power-percentage-minus-l btn btn-sm btn-sm-l">-</button>
                                         <button class="power-percentage-minus-sm btn btn-sm btn-sm-r">-</button>
-                                        <span style="font-size: 1.6rem; font-weight: 500;">
-                                            <span style="padding: 0 .4rem 0"><span
+                                        <span class="sub-title">
+                                            <span class="edit-card-sub-title-grid"><span
                                                     class="power-percentage">80</span>%</span>
                                         </span>
                                         <button class="power-percentage-add-sm btn btn-sm btn-sm-l">+</button>
@@ -168,8 +167,9 @@
                                     <div class="d-flex">
                                         <button class="power-watt-minus-l btn btn-sm btn-sm-l">-</button>
                                         <button class="power-watt-minus-sm btn btn-sm btn-sm-r">-</button>
-                                        <span style="font-size: 1.6rem; font-weight: 500;">
-                                            <span style="padding: 0 .4rem 0"><span class="power-watt">180</span>w</span>
+                                        <span class="sub-title">
+                                            <span class="edit-card-sub-title-grid"><span
+                                                    class="power-watt">180</span>w</span>
                                         </span>
                                         <button class="power-watt-add-sm btn btn-sm btn-sm-l">+</button>
                                         <button class="power-watt-add-l btn btn-sm btn-sm-r">+</button>
@@ -180,26 +180,26 @@
                                 <div class="duration-edit d-flex" style="align-content: center; justify-content: space-between; padding-top: .4rem; 
                                     padding-right: 1rem;">
                                     <div class="d-flex">
-                                        <span
-                                            style="font-size: 1.3rem; font-weight: 500; align-self: center;">Duration:</span>
+                                        <span class="edit-card-duration-sub-title"
+                                            style="align-self: center;">Duration:</span>
                                     </div>
                                     <!-- Mins -->
                                     <div class="d-flex">
                                         <button class="duration-min-minus-l btn btn-sm btn-sm-l">-</button>
                                         <button class="duration-min-minus-sm btn btn-sm btn-sm-r">-</button>
-                                        <span style="font-size: 1.6rem; font-weight: 500;">
-                                            <span class="duration-minute" style="padding: 0 .4rem 0">00</span>
+                                        <span class="sub-title">
+                                            <span class="duration-minute edit-card-sub-title-grid">00</span>
                                         </span>
                                         <button class="duration-min-add-sm btn btn-sm btn-sm-l">+</button>
                                         <button class="duration-min-add-l btn btn-sm btn-sm-r">+</button>
                                     </div>
-                                    <span style="font-size: 1.6rem; font-weight: 500;">:</span>
+                                    <span class="sub-title" style="padding: 0 .2rem 0;">:</span>
                                     <!-- Secs -->
                                     <div class="d-flex">
                                         <button class="duration-sec-minus-l btn btn-sm btn-sm-l">-</button>
                                         <button class="duration-sec-minus-sm btn btn-sm btn-sm-r">-</button>
-                                        <span style="font-size: 1.6rem; font-weight: 500;">
-                                            <span class="duration-second" style="padding: 0 .4rem 0">00</span>
+                                        <span class="sub-title">
+                                            <span class="duration-second edit-card-sub-title-grid">00</span>
                                         </span>
                                         <button class="duration-sec-add-sm btn btn-sm btn-sm-l">+</button>
                                         <button class="duration-sec-add-l btn btn-sm btn-sm-r">+</button>
@@ -212,7 +212,7 @@
                                 <!-- Add New Card Button-->
                                 <div style="padding: 1.6rem 0.3rem 0 .9rem;">
                                     <img class="btn-add-new-plan" src="../asset/add_icon.svg"
-                                        style="width: 1.8rem; cursor: pointer;">
+                                        style="cursor: pointer;">
                                 </div>
                                 <div style="padding: 0 0 4.8rem .6rem;">
                                     <img class="btn-plan-card-edit-exit" src="../asset/trash_icon.svg"
@@ -226,15 +226,14 @@
                             <div class="card-grid-a" style="width: 10%;">
                                 <div style="display: flex; flex-direction: column; justify-content: space-evenly;">
                                     <button class="btn-plan-card-shift-up btn btn-b"
-                                        style="background-color: transparent; border: none; font-size: 1.5rem; text-align: left;">▲</button>
+                                        style="background-color: transparent; border: none; text-align: left;">▲</button>
                                     <button class="btn-plan-card-shift-down btn btn-b"
-                                        style="background-color: transparent; border: none; font-size: 1.5rem; text-align: left;">▼</button>
+                                        style="background-color: transparent; border: none; text-align: left;">▼</button>
                                 </div>
                             </div>
 
                             <div class="card-grid-b" style="width: 70%">
-                                <span class="card-info-title-freeride"
-                                    style="font-size: 1.5rem; font-weight: 510; display: none;">
+                                <span class="card-info-title-freeride">
                                     <span>FREERIDE</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <span>
                                         <span class="card-info-title-hr" style="font-weight: 480;">1</span>:<span
@@ -242,15 +241,18 @@
                                             class="card-info-title-sec" style="font-weight: 480;">00</span>
                                     </span>
                                 </span>
-                                <span class="card-info-title-zone" style="font-size: 1.5rem; font-weight: 510;">ZONE
+                                <span class="card-info-title-zone">ZONE
                                     <span class="card-info-title-zone-level">2</span> -
                                     <span class="card-info-title-power">200</span>w&nbsp;&nbsp;&nbsp;
-                                    <span class="card-info-title-hr" style="font-weight: 480;">1</span>:<span
-                                        class="card-info-title-min" style="font-weight: 480;">30</span>:<span
-                                        class="card-info-title-sec" style="font-weight: 480;">00</span>
+                                    <span class="card-info-sub-title-duration">
+                                        <span class="card-info-title-hr" style="font-weight: 480;">1</span>:<span
+                                            class="card-info-title-min" style="font-weight: 480;">30</span>:<span
+                                            class="card-info-title-sec" style="font-weight: 480;">00</span>
+                                    </span>
+
                                 </span><br>
 
-                                <span style="font-size: 1rem; font-weight: 500;">Intensity Factor :
+                                <span style="font-size: 1rem; font-weight: 500;">IF :
                                     <span class="card-info-if">0.96</span>&nbsp;&nbsp;&nbsp;TSS :
                                     <span class="card-info-tss">150</span>
                                 </span>
@@ -320,7 +322,8 @@
 
             <section id="workout-plan-info" style="padding: 1rem 2rem 1rem;">
                 <div class=".workout-plan-session-sub d-flex" style="justify-content: center;">
-                    <button class="btn-download-a" style="display: none;" onclick="createText()">Download workout file</button>
+                    <button class="btn-download-a" style="display: none;" onclick="createText()">Download workout
+                        file</button>
                 </div>
             </section>
         </div>

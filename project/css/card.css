@@ -1,5 +1,5 @@
 /* plan card */
-#new-plan-card-session, #workout-plan-session {
+#msg-welcome, #user-profile, #new-plan-card-session, #workout-plan-session {
     padding: 1rem 2.2rem 1rem;
 }
 
@@ -115,7 +115,7 @@
 @media (max-width: 576px) {
     /* new plan card */
     .main-content #new-plan-card-session, #workout-plan-session {
-        padding: 1rem .7rem 1rem;
+        padding: 1rem 0rem 1rem;
     }
 }
 
@@ -156,5 +156,118 @@
     } to {
         opacity: 0;
         transform: translateY(20rem);
+    }
+}
+
+.title-zone, .title-freeride, .card-info-title-freeride, .card-info-title-zone {
+    font-size: 1.5rem; 
+    font-weight: 510;
+}
+
+.edit-card-power-sub-title, .edit-card-duration-sub-title {
+    font-size: 1.3rem; 
+    font-weight: 500; 
+    align-self: center;
+}
+
+.sub-title {
+    font-size: 1.6rem; 
+    font-weight: 500; 
+}
+
+.edit-card-sub-title-grid {
+    padding: 0 .4rem 0;
+}
+
+.btn-plan-card-shift-up, .btn-plan-card-shift-down {
+    font-size: 1.5rem;
+}
+
+.btn-add-new-plan {
+    width: 1.8rem;
+}
+
+@media only screen and (max-device-width : 640px) {
+    #msg-welcome, #user-profile, #new-plan-card-session, #workout-plan-session {
+        padding: 1rem .3rem 1rem;
+    }
+    
+    .card {
+        min-width: 22.5rem;  
+        width: 22.5rem;  
+        background-color: rgb(46, 196, 71); 
+    
+        padding: .5rem .8rem .5rem;                
+        border-radius: 15px 15px 15px 15px; 
+        border: 6px solid white;          
+        box-shadow: 0px 2px 13px 0px #888888; 
+        color: rgb(247, 247, 247);
+    
+        align-items: center;
+    }
+
+    .main-content .title-zone, .main-content .title-freeride, .main-content .card-info-title-freeride {
+        font-size: 1.3rem; 
+        font-weight: 510;
+    }
+
+    .main-content .edit-card-power-sub-title, .main-content .edit-card-duration-sub-title {
+        font-size: 1.2rem; 
+        font-weight: 500; 
+        align-self: center;
+    }
+
+    .main-content .sub-title {
+        font-size: 1.2rem; 
+        font-weight: 500; 
+        padding-top: .2rem;
+    }
+
+    .main-content .edit-card-sub-title-grid {
+        padding: 0 .1rem 0;
+    }
+
+    .main-content .power-percentage-minus-sm, .main-content .power-percentage-add-sm, .main-content .power-watt-minus-sm, .main-content .power-watt-add-sm, .main-content .duration-min-minus-sm, .main-content .duration-min-add-sm, .main-content .duration-sec-minus-sm, .main-content .duration-sec-add-sm, .main-content .title-power-session {
+        display: none;
+    }
+
+    .main-content .power-percentage-minus-l, .main-content .power-percentage-add-l, .main-content .power-watt-minus-l, .main-content .power-watt-add-l, .main-content .duration-min-minus-l, .main-content .duration-min-add-l, .main-content .duration-sec-minus-l, .main-content .duration-sec-add-l {
+        margin: .1rem .2rem 0;
+        width: 1.3rem;
+        height: 1.6rem;
+        border-radius: 5px;
+    }
+
+    .main-content .card-info-title-zone, .main-content .card-info-sub-title-duration {
+        font-size: 1.2rem; 
+    }
+
+    .main-content .btn-plan-card-shift-up, .main-content .btn-plan-card-shift-down {
+        font-size: 1.3rem;
+    }
+
+    .main-content .btn-add-new-plan {
+        width: 1.6rem;
+    }
+    .main-content .btn-add-new-plan:hover {
+        transform: scale(1.05);
+        transition: 0.2ms ease-in;
+    }
+    .main-content .btn-add-new-plan:active {
+        transform: scale(.9);
+        transition: 0.2ms ease-in;
+    }
+
+    .main-content #workout-plan-shortcut {
+        display: none;
+    }
+
+    .main-content .btn-show-avg-power, .main-content .btn-is-freeride {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, .5); 
+        color: rgb(82, 82, 82); 
+        border:none; border-radius: 15px;
+        padding: .25rem .6rem .3rem;
+        font-size: .8rem;
     }
 }
