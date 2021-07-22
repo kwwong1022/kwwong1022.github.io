@@ -258,7 +258,7 @@
         transition: 0.2ms ease-in;
     }
 
-    .main-content #workout-plan-shortcut {
+    .main-content #workout-plan-shortcut, .main-content .hide-session-btn {
         display: none;
     }
 

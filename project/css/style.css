@@ -367,13 +367,13 @@ footer a:hover {
         padding: 0rem 14rem 0rem;
     }
     #footer-grid-1 {
-        width: 45%;
+        width: 40%;
     }
     #footer-grid-2 {
-        width: 25%;
+        width: 20%;
     }
     #footer-grid-3, #footer-grid-4 {
-        width: 10%;
+        width: 20%;
     }
 }
 
