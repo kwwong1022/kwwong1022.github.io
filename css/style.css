@@ -73,3 +73,20 @@ a {
     transform: translateX(0);
     opacity: 1;
 }
+
+.s-b-container {
+    display: flex; 
+    justify-content: space-between;
+  }
+  .a-item-c {
+    align-items: center;
+  }
+  .d-flex {
+    display: flex;
+  }
+  .f-direction-col {
+    flex-direction: column;
+  }
+  .box-shadow-d {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  }
