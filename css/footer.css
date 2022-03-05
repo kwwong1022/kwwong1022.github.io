@@ -1,0 +1,97 @@
+footer {
+    margin-top: auto;
+}
+
+.footer-content-full {
+    padding: 1rem .5rem 4rem;
+    font-size: 15px;
+    display: flex; 
+    justify-content: space-between;
+}
+.footer-content-half {
+    padding: 1rem .5rem 1rem;
+    font-size: 15px;
+    display: none; 
+    justify-content: space-between;
+}
+.footer .logo {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+}
+.footer .portal {
+    display: flex;
+    justify-content: left;
+    padding: 1rem .5rem 0 .1rem;
+}
+.footer ul {
+    list-style: none;
+}
+.footer ul li {
+    margin-top: .3rem;
+}
+.footer ul li:first-of-type {
+    margin-top: .5rem;
+}
+.footer ul li a {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .7);
+} 
+.footer-content-half .f-col {
+    width: 65%; 
+    padding: 0 7rem 0 2rem; 
+    display: flex; justify-content: left;
+}
+.footer .credit {
+    display: none;
+    font-size: 14px; 
+    color: rgba(0, 0, 0, .7); 
+    text-align: center; 
+    padding: 2rem 0 2rem;
+}
+
+@media (max-width: 576px) {
+    .footer-content-full {
+        display: none; 
+    }
+    .footer-content-half {
+        display: flex; 
+        justify-content: center;
+    }
+    .footer-content-half .f-col {
+        width: 65%; 
+        padding: 0 0 0 .5rem; 
+        display: flex; justify-content: center;
+    }
+    .footer .credit {
+        display: block;
+        font-size: 14px; 
+        color: rgba(0, 0, 0, .7); 
+        text-align: center; 
+        padding: 1rem 0 2rem;
+    }
+    .footer .portal-text {
+        display: none;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .footer-content-full {
+        display: none; 
+    }
+    .footer-content-half {
+        display: flex; 
+    }
+    .footer .credit {
+        display: block;
+        font-size: 14px; 
+        color: rgba(0, 0, 0, .7); 
+        text-align: center; 
+        padding: 2rem 0 2rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
+} 

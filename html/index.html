@@ -4,9 +4,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link CSS -->
+    <link rel="stylesheet" href="../css/font_awesome/all.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- font-family: 'Quicksand', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+    <!-- script -->
+    <script src="../lib/p5.js"></script>
+    <script src="https://kit.fontawesome.com/c974aabfe2.js" crossorigin="anonymous"></script>
     <title>kwwong1022.github.io</title>
 </head>
+
 <body>
-    hello world!
+    <!-- navbar -->
+    <header>
+        <div class="content-constraint">
+            <div class="logo"><a href="/html/index.html">Kwwong1022.github.io</a></div>
+    
+            <div class="navbar-toggler"><i class="fas fa-bars btn-show-menu"></i><i class="fas fa-times btn-close-menu disabled"></i></div>
+    
+            <nav class="navbar disabled">
+                <ul>
+                    <li><a class="cat" href="/html/index.html">Home</a></li>
+                    <li><a class="cat" style="cursor: pointer;">Assignment <i class="fas fa-angle-down fa-xs"></i></a>
+                        <ul>
+                            <li><a class="sub-cat first" href="/works#mobile-app">Assignment #7</a></li>
+                            <li><a class="sub-cat" style="color: rgba(0, 0, 0, .4); cursor: default;" href="/works#mobile-app">Final Project</a></li>
+                            <li><a class="sub-cat last" href="https://observablehq.com/@kwwong1022/sm3809-homepage">All</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="cat" style="cursor: pointer;">Link <i class="fas fa-angle-down fa-xs"></i></a>
+                        <ul>
+                            <li><a class="sub-cat first" href="https://rednoise.org/sas/index.php?n=Main.HomePage">SM3809 Homepage</a></li>
+                            <li><a class="sub-cat" href="https://observablehq.com/@kwwong1022/sm3809-homepage">Observable Homepage</a></li>
+                            <li><a class="sub-cat last" href="https://github.com/kwwong1022">Github</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- content -->
+
+    <!-- footer -->
+    <footer class="section footer">
+        <div class="section-content footer">
+            <div class="line-br"></div>
+            <div class="footer-content-full">
+                <div style="width: 55%; padding: 0 7rem 0 0;">
+                    <div class="logo">Kwwong1022.github.io</div>
+                    <div style="font-weight: 300; margin: .5rem 0 0; font-size: 14px;">
+                        Website designed and created by Kenneth Wong.<br>
+                        Github work showcase webpage
+                    </div>
+                    <div class="portal">
+                        <a href="https://github.com/kwwong1022" target="_blank"><div style="float: left; margin-right: .7rem;">
+                            <i class="fab fa-github-square fa-lg"></i>
+                        </div></a>
+                        <a href="/contact"><div style="float: left;">
+                            <i class="fas fa-envelope-square fa-lg"></i>
+                        </div></a>
+                    </div>
+                </div>
+                <div style="width: 10%;">
+                    <ul>
+                        Assignment
+                        <li><a href="/about#about-me">All</a></li>
+                        <li><a href="/about#skills">Final Project</a></li>
+                    </ul>
+                </div>
+                <div style="width: 10%;">
+                    <ul>
+                        Link
+                        <li><a href="/works#website">Observable</a></li>
+                        <li><a href="/works#artwork">Github</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-content-half">
+                <div class="f-col">
+                    <div class="logo">Kwwong1022.github.io</div>
+    
+                    <a href="https://github.com/kwwong1022" target="_blank"><div style="float: left; margin: .3rem .7rem 0 0;">
+                        <i class="fab fa-github-square fa-lg"></i>
+                    </div></a>
+                    <a href="/contact"><div style="float: left; margin: .3rem .7rem 0 0;">
+                        <i class="fas fa-envelope-square fa-lg"></i>
+                    </div></a>
+    
+                </div>
+                <div class="portal-text" style="width: 15%; margin-top: .3rem;">
+                    <a href="/about">Home</a>
+                </div>
+                <div class="portal-text"  style="width: 15%; margin: .3rem 0 0 .6rem;">
+                    <a href="/works">Observable</a>
+                </div>
+                <div class="portal-text"  style="width: 15%; margin-top: .3rem;">
+                    <a href="/contact">GitHub</a>
+                </div>
+            </div>
+            <div class="credit">
+                Website designed and created by Kenneth Wong.<br>
+                Github work showcase webpage
+            </div>
+        </div>
+    </footer>
+    
+    <!-- script -->
+    <script src="../js/nav.js"></script>
+
+    <!-- script -->
+    <!-- <script src= "./js/style.js"></script>
+    <script src= "./js/home.js"></script>
+    <script src= "./js/p5-sketchs/home/post-note-s.js"></script>
+    <script src= "./js/p5-sketchs/home/velo-race-s.js"></script>
+    <script src= "./js/p5-sketchs/home/epidemic-trends-s.js"></script> -->
 </body>
 </html>
