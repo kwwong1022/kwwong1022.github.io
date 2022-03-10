@@ -79,10 +79,13 @@
                     "this brown paper bag of peaches. we bought from the boy at the bend in the road where we turned toward signs painted Peaches. From laden boughs, from hands, from sweet fellowship in the bins, comes nectar at the roadside, succulent peaches we devour, dusty skin and all,comes the familiar dust of summer, dust we eat. O, to take what we love inside, to carry within us an orchard, to eat not only the skin, but the shade, not only the sugar, but the days, to hold the fruit in our hands, adore it, then bite into the round jubilance of peach. There are days we live as if death were nowhere in the background; from joy to joy to joy, from wing to wing, from blossom to blossom to impossible blossom, to sweet impossible blossom."
                 </p><br>
                 <p>
-                    Steps:
-                    <ol style="padding-left: 1rem;">
-                        <li style="padding-left: .5rem;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, recusandae et, voluptate earum laboriosam illo, repudiandae ut placeat laudantium cupiditate sint inventore illum rem ratione. Eaque itaque ratione amet natus.</li>
-                    </ol>
+                    This is a Travesty generator. This algorithm will affect the generated article according to the text provided by the user, n-size, where the n-size pattern is repeated in the article to form a frequency table and the number of times of generation set by the user. In this work, I set n-size to 3, and the number of times is based on the number of characters the article has. I think this produces a form that is half chaotic and half ordered and like paragraphs of articles.
+                </p><br>
+                <p>
+                    The algorithm first splits each word in the article by n-size values. For example (n-size = 3): I have an apple -> [I_h, _ha, hav, ave …]. Then we need to use the pattern obtained in it to organize, for example, add it to an object. Each of the keys is a pattern taken out from the article. If the pattern has not appeared before, the variable is added to the object and an array record is created followed by the first character.
+                </p><br>
+                <p>
+                    Repeating this step will result in a frequency table that can be used as a reference for generation. For example: "cle" -> [c, b, a, b], where the key is the the n-size pattern, the character are the character following the previous n-size pattern. Then perform the following steps according to the number of repetitions set by the user. The first text is to extract n-size text from the article (n-size = 3 -> [i][i+1][i+2]), and then use the table as a reference. If there is more than one probability of occurrence, it will be randomly selected by random. Then the text will concat to the current text. The current n-size pattern word is then shifted back one bit and the same steps are continued. This results in articles scrambled by travesty algoritmn.
                 </p><br>
         
                 <div id="travesty-generate-btn" style="padding: .6rem 1rem .6rem; background-color: black; color: white; margin: .5rem 0 2rem; width: fit-content; cursor: pointer;">Generate</div>
