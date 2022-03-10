@@ -23,6 +23,7 @@ body {
     background-color: rgba(252, 252, 252, 1);
 
     overflow-x: hidden;
+    line-height: 1.6;
 }
 
 a {
