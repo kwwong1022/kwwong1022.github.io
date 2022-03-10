@@ -69,50 +69,53 @@
     </div>
 
     <!-- Travesty: -->
-    <div class="section" style="margin: 0 0 3rem;">
+    <div class="section" style="margin: 0 0 2rem;">
         <div class="section-content fade-in">
             <div style="margin: .5rem 0 2rem; font-size: 1.4rem; font-weight: 400;">Travesty</div>
-            
-            <div class="post-note featured-work" style="display: flex; justify-content: space-between; align-items: center;">
-                <div id="travesty-s" class="sketch slide-in from-left" style="border-radius: 5px; box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);"></div>
 
-                <div class="info slide-in from-right" style="width: 50%;">
-                    <div class="intro-p">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium veniam, asperiores at architecto assumenda deserunt quibusdam harum pariatur tempore, dolorem odio fugit fuga. Debitis et soluta ipsum harum ipsa vitae.
-                        </p><br>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit expedita perspiciatis consequatur ullam ut incidunt vel magni? Distinctio ut voluptate, cumque fugit ab suscipit id, voluptates dolores quas eum animi!
-                        </p>
-                    </div>
-                </div>
+            <div style="max-width: 600px;">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dignissimos tempora accusamus nulla quaerat ipsa, excepturi ab earum eveniet at quibusdam repellat placeat commodi doloribus necessitatibus suscipit esse illum voluptates.
+                </p><br>
+                <p>
+                    Steps:
+                    <ol style="padding-left: 1rem;">
+                        <li style="padding-left: .5rem;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, recusandae et, voluptate earum laboriosam illo, repudiandae ut placeat laudantium cupiditate sint inventore illum rem ratione. Eaque itaque ratione amet natus.</li>
+                    </ol>
+                </p><br>
+        
+                <div id="travesty-generate-btn" style="padding: .6rem 1rem .6rem; background-color: black; color: white; margin: .5rem 0 2rem; width: fit-content; cursor: pointer;">Generate</div>
+
+                <p id="travesty-text" style="max-width: 600px;"></p><br>
             </div>
-
-            <div style="height: 1px; background-color: rgba(0, 0, 0, .1); margin: 6rem 0 0rem;"></div>
         </div>
     </div>
-
 
     <!-- Implementation of Travesty: -->
     <div class="section" style="margin: 0 0 8rem;">
         <div class="section-content fade-in">
             <div style="margin: .5rem 0 2rem; font-size: 1.4rem; font-weight: 400;">Implementation of Travesty</div>
-            
-            <div class="post-note featured-work" style="display: flex; justify-content: space-between; align-items: center;">
-                <div id="travesty-implementation-s" class="sketch slide-in from-left" style="border-radius: 5px; box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);"></div>
 
-                <div class="info slide-in from-right" style="width: 50%;">
-                    <div class="intro-p">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dignissimos tempora accusamus nulla quaerat ipsa, excepturi ab earum eveniet at quibusdam repellat placeat commodi doloribus necessitatibus suscipit esse illum voluptates.
-                        </p><br>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, illum, accusamus cupiditate, voluptatum soluta in a amet harum nostrum vitae beatae quo sequi laboriosam incidunt distinctio error doloribus. Maxime, rerum.
-                        </p>
-                    </div>
-                </div>
+            <div style="max-width: 600px;">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dignissimos tempora accusamus nulla quaerat ipsa, excepturi ab earum eveniet at quibusdam repellat placeat commodi doloribus necessitatibus suscipit esse illum voluptates.
+                </p><br><br>
+                <p>
+                    How to use:
+                    <ol style="padding-left: 1rem;">
+                        <li style="padding-left: .5rem;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, recusandae et, voluptate earum laboriosam illo, repudiandae ut placeat laudantium cupiditate sint inventore illum rem ratione. Eaque itaque ratione amet natus.</li>
+                    </ol>
+                </p><br><br>
             </div>
 
+            <textarea id="travesty-textarea" style="min-width: 600px; min-height: 150px;"></textarea>
+
+            <form method="POST" action="">
+                <input id="paragraph" name="paragraph" type="text" style="display: none;">
+                <button id="travesty-implementation-generate-btn" type="submit" style="padding: .6rem 1rem .6rem; background-color: black; color: white; margin: .5rem 0 2rem; width: fit-content; cursor: pointer; border: none; font-size: 1rem;">Generate</button> 
+            </form>
+
+            <p id="travesty-implementation-text"></p>
         </div>
     </div>
 
@@ -178,6 +181,7 @@
 
     <!-- script -->
     <script src= "../js/style.js"></script>
+    <script src= "../p5-sketchs/assignment-7/travesty.js"></script>
     <script src= "../p5-sketchs/assignment-7/travesty-s.js"></script>
     <script src= "../p5-sketchs/assignment-7/travesty-implementation-s.js"></script>
 </body>
