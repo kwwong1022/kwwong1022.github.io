@@ -1,3 +1,5 @@
+/** reference from Coding Challenge #42.1: Markov Chains - Part 1 https://www.youtube.com/watch?v=eGFJ8vugIWA */ */
+
 class Travesty {
     constructor(txt, n, ngrams) {
         this.txt = txt;
@@ -27,10 +29,14 @@ class Travesty {
             }
         }
 
-        const p = document.createElement('p');
-        const b = document.createElement('br');
-        p.append(result);
-        container.appendChild(p);
-        container.appendChild(b);
+        if (container) {
+            const p = document.createElement('p');
+            const b = document.createElement('br');
+            p.append(result);
+            container.appendChild(p);
+            container.appendChild(b);
+        } else {
+            return result;
+        }
     }
 }

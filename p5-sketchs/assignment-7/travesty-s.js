@@ -1,22 +1,3 @@
-// travestySketch = (s) => {
-//     let txt = "This rainbow has a unicorn flying over it."
-//     let order = 3;
-
-//     s.setup = function() {
-//         s.createCanvas(400, 300);
-//         canvasWidth = s.width;
-//     }
-
-//     s.draw = function() {
-//         s.background(252);
-//     }
-
-//     s.windowResized = function() {
-//     }
-// }
-
-// var travestyP5 = new p5(travestySketch, 'travesty-s');
-
 let travestyContainer = document.querySelector('#travesty-text');
 let travestyGenerateBtn = document.querySelector('#travesty-generate-btn');
 
@@ -26,5 +7,3 @@ p1Travesty.process();
 travestyGenerateBtn.addEventListener('click', () => {
     p1Travesty.generate(travestyContainer);
 });
-
-//console.log(ngrams);
